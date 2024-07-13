@@ -1,0 +1,300 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Gaming Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">Gammers</a>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#tournaments">Tournaments</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="action">
+                <div class="searchBx">
+                    <a href="#"><i class='bx bx-search'></i></a>
+                    <input type="text" placeholder="Search Games">
+                </div>
+            </div>
+            <div class="toggleMenu" onclick="toggleMenu();"></div>
+        </header>
+
+        <!-- Home Banner -->
+        <div class="banner animeX" id="home">
+            <div class="bg">
+                <div class="content">
+                    <h2>A New Home for<br>
+                    Game Lovers</h2>
+                    <p> Gammers is the ultimate online destination for game lovers, connecting you to a thriving community, offering the latest gaming news and reviews, and hosting exciting tournaments.</p>
+                    <a href="#" class="btn">Join Now</a>
+                </div>
+                <img src="./img/dark-style-ninja-naruto.png">
+            </div>
+        </div>
+
+        <!-- About -->
+        <div class="about animeX" id="about">
+            <div class="contentBx">
+                <h2>About Us</h2>
+                <p>We believe in the power of games to connect people, foster creativity, and provide endless entertainment. Our vision is to build a welcoming and diverse community where every gamer feels at home.our mission is to create a dynamic and inclusive community for gamers of all kinds. We aim to be your go-to source for the latest in gaming news, reviews, and content, providing a space where passion for games can thrive.From blockbuster titles to indie treasures, our team covers the entire gaming spectrum with enthusiasm and expertise.
+                </p>
+                <a href="#">Read more</a>
+            </div>
+            <img src="./img/videogame.png">
+        </div>
+
+        <!-- Games -->
+        <div class="games animeX" id="games">
+            <h2>Popular Games</h2>
+            <ul>
+                <li class="list active" data-filter="all">All</li>
+                <li class="list" data-filter="pc">Pc games</li>
+                <li class="list" data-filter="mobile">Mobile games</li>
+            </ul>
+            <div class="cardBx">
+                <div class="card" data-item="pc">
+                    <img src="./img/game1.png">
+                    <div class="content">
+                        <h4>Grand Theft Auto</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>$10</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-item="pc">
+                    <img src="./img/game3.jpg">
+                    <div class="content">
+                        <h4>Batman Arkham City</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>$10</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="./img/game4.png">
+                    <div class="content">
+                        <h4>Assassins Creed Valhalla</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>$10</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="./img/game5.jpg">
+                    <div class="content">
+                        <h4>Spider man</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>$10</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="./img/game6.jpg">
+                    <div class="content">
+                        <h4>God of War</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>$10</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="mobile">
+                    <img src="./img/game7.jpg">
+                    <div class="content">
+                        <h4>Battle Grounds Mobile</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>$10</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="mobile">
+                    <img src="./img/game8.jpg">
+                    <div class="content">
+                        <h4>Call Of Duty</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>$10</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="mobile">
+                    <img src="./img/game9.jpg">
+                    <div class="content">
+                        <h4>Free Fire</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>$10</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="mobile">
+                    <img src="./img/game10.jpg">
+                    <div class="content">
+                        <h4>Shadow Fight Arena</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>$10</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tournaments -->
+        <div class="tournaments animeX" id="tournaments">
+            <h2>Live Tournaments</h2>
+            <div class="boxBx">
+                <div class="box">
+                    <img src="./img/tournament1.jpg">
+                    <div class="content">
+                        <h4><span>50</span> Matches in progress..</h4>
+                        <p>BGMI Tournament! Get ready for an action-packed event where the best BGMI players come together to compete for glory, bragging rights, and amazing prizes.
+                       </p>
+                       <div class="btn">
+                           <a href="#" class="watch">Watch</a>
+                           <a href="#" class="join">Join Now</a>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="./img/tournament2.jpg">
+                    <div class="content">
+                        <h4><span>30</span> Matches in progress..</h4>
+                        <p> Shadow Fight Tournament! Get ready to experience intense combat and showcase your fighting skills in this thrilling tournament.this is your opportunity.
+                       </p>
+                       <div class="btn">
+                           <a href="#" class="watch">Watch</a>
+                           <a href="#" class="join">Join Now</a>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="./img/tournament3.jpg">
+                    <div class="content">
+                        <h4><span>40</span> Matches in progress..</h4>
+                        <p>Call of Duty Tournament! Prepare for an adrenaline-pumping experience as teams from across the globe compete in intense battles to claim the title of champions. 
+                       </p>
+                       <div class="btn">
+                           <a href="#" class="watch">Watch</a>
+                           <a href="#" class="join">Join Now</a>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="./img/tournament4.jpg">
+                    <div class="content">
+                        <h4><span>40</span> Matches in progress..</h4>
+                        <p>Free Fire Tournament! Gear up for an electrifying competition where the best Free Fire players come together to battle it out for supremacy. Whether you’re a seasoned veteran or a rising star, 
+                       </p>
+                       <div class="btn">
+                           <a href="#" class="watch">Watch</a>
+                           <a href="#" class="join">Join Now</a>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="./img/tournament5.jpg">
+                    <div class="content">
+                        <h4><span>20</span> Matches in progress..</h4>
+                        <p> PUBG Battleground Tournament! Prepare for an exhilarating showdown where teams from around the world compete in intense battles to emerge victorious. 
+                       </p>
+                       <div class="btn">
+                           <a href="#" class="watch">Watch</a>
+                           <a href="#" class="join">Join Now</a>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="./img/tournament6.jpg">
+                    <div class="content">
+                        <h4><span>50</span> Matches in progress..</h4>
+                        <p>Fortnite Tournament! Get ready for an exhilarating competition where players from across the globe battle it out in Fortnite's dynamic world.
+                       </p>
+                       <div class="btn">
+                           <a href="#" class="watch">Watch</a>
+                           <a href="#" class="join">Join Now</a>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="contact animeX" id="contact">
+            <img src="./img/contact.jpg">
+            <div class="form">
+                <h1>Contact Us</h1>
+                <div class="inputBx">
+                    <p>Enter Name</p>
+                    <input type="text" placeholder="Full Name">
+                </div>
+                <div class="inputBx">
+                    <p>Enter Email</p>
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="inputBx">
+                    <p>Enter Password</p>
+                    <input type="text" placeholder="Password....">
+                </div>
+                <div class="inputBx">
+                    <p>Message</p>
+                    <textarea placeholder="Type here..."></textarea>
+                </div>
+                <div class="inputBx">
+                    <input type="submit" name="Submit">
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="info">
+                <a href="#" class="logo">Gammers</a>
+                <p><i class='bx bx-copyright' ></i> 2022 All Rights Reserved</p>
+                <ul>
+                    <li><a href="#"><i class='bx bxl-facebook' ></i></a></li>
+                    <li><a href="#"><i class='bx bxl-instagram' ></i></a></li>
+                    <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+                    <li><a href="#"><i class='bx bxl-youtube' ></i></a></li>
+                </ul>
+            </div>
+        </footer>
+
+
+        <script src="./app.js"></script>
+
+</script>
+    </body>
+</html>
