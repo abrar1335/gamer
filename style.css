@@ -15,7 +15,7 @@ body{
 }
 ::-webkit-scrollbar-thumb
 {
-    background: #1aeeef;
+    background: #1aeeff;
     border-radius: 6px;
 }
 header{
@@ -57,9 +57,9 @@ header ul li a{
     border-radius: 5px;
 }
 header ul li a:hover{
-    background: #1aeeef;
+    background: #1aeeff;
     color: #050e2d;
-    box-shadow: 0 0 10px #1aeeef;
+    box-shadow: 0 0 10px #1aeeff;
 }
 
 header .action .searchBx{
@@ -120,7 +120,7 @@ header .action .searchBx input{
     display: inline-block;
     padding: 10px 20px;
     margin: 20px 0;
-    border: 1px solid #1aeeef;
+    border: 1px solid #1aeeff;
     text-decoration: none;
     font-weight: 700;
     border-radius: 5px;
@@ -128,10 +128,10 @@ header .action .searchBx input{
     letter-spacing: 1px;
 }
 .banner .bg .content a:hover{
-    background: #1aeeef;
+    background: #1aeeff;
     border: none;
     color: #050e2d;
-    box-shadow: 0 0 10px #1aeeef;
+    box-shadow: 0 0 10px #1aeeff;
 }
 .banner .bg img{
     width: 600px;
@@ -165,7 +165,7 @@ header .action .searchBx input{
     display: inline-block;
     padding: 10px 20px;
     margin: 20px 0;
-    border: 1px solid #1aeeef;
+    border: 1px solid #1aeeff;
     text-decoration: none;
     font-weight: 700;
     border-radius: 5px;
@@ -173,10 +173,10 @@ header .action .searchBx input{
     letter-spacing: 1px;
 }
 .about .contentBx a:hover{
-    background: #1aeeef;
+    background: #1aeeff;
     border: none;
     color: #050e2d;
-    box-shadow: 0 0 10px #1aeeef;
+    box-shadow: 0 0 10px #1aeeff;
 }
 
 /* Games */
@@ -211,9 +211,9 @@ header .action .searchBx input{
     color: #fff;
 }
 .games ul li.active{
-    background: #1aeeef;
+    background: #1aeeff;
     color: #050e2d;
-    box-shadow: 0 0 10px #1aeeef;
+    box-shadow: 0 0 10px #1aeeff;
 }
 .games .cardBx{
     width: 100%;
@@ -258,8 +258,8 @@ header .action .searchBx input{
     height: 100%;
     width: 80%;
     border-radius: 10px;
-    background: #1aeeef;
-    box-shadow: 0 0 10px #1aeeef;
+    background: #1aeeff;
+    box-shadow: 0 0 10px #1aeeff;
     transform: scaleX(0);
     transform-origin: left;
     animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
@@ -281,13 +281,13 @@ header .action .searchBx input{
     color: #fff;
 }
 .games .cardBx .card .info p span{
-    color: #1aeeef;
+    color: #1aeeff;
 }
 .games .cardBx .card .info a{
     display: inline-block;
     padding: 10px 20px;
     margin: 10px 0;
-    border: 1px solid #1aeeef;
+    border: 1px solid #1aeeff;
     text-decoration: none;
     font-weight: 700;
     border-radius: 5px;
@@ -295,10 +295,10 @@ header .action .searchBx input{
     letter-spacing: 1px;
 }
 .games .cardBx .card .info a:hover{
-    background: #1aeeef;
+    background: #1aeeff;
     border: none;
     color: #050e2d;
-    box-shadow: 0 0 10px #1aeeef;
+    box-shadow: 0 0 10px #1aeeff;
 }
 .games .cardBx .card.hide{
     display: none;
@@ -349,7 +349,7 @@ header .action .searchBx input{
     margin-top: 15px;
 }
 .tournaments .boxBx .box .content h4 span{
-    color: #1aeeef;
+    color: #1aeeff;
 }
 .tournaments .boxBx .box .content p{
     text-align: justify;
@@ -365,16 +365,16 @@ header .action .searchBx input{
     display: inline-block;
     padding: 10px 20px;
     margin: 10px 0;
-    background: #1aeeef;
+    background: #1aeeff;
     text-decoration: none;
     font-weight: 700;
     border-radius: 5px;
     color: #050e2d;
     letter-spacing: 1px;
-    box-shadow: 0 0 10px #1aeeef;
+    box-shadow: 0 0 10px #1aeeff;
 }
 .tournaments .boxBx .box .content .watch:hover{
-    border: 1px solid #1aeeef;
+    border: 1px solid #1aeeff;
     background: none;
     color: #fff;
     box-shadow: none;
@@ -383,7 +383,7 @@ header .action .searchBx input{
     display: inline-block;
     padding: 10px 20px;
     margin: 10px 0;
-    border: 1px solid #1aeeef;
+    border: 1px solid #1aeeff;
     text-decoration: none;
     font-weight: 700;
     border-radius: 5px;
@@ -391,10 +391,10 @@ header .action .searchBx input{
     letter-spacing: 1px;
 }
 .tournaments .boxBx .box .content .join:hover{
-    background: #1aeeef;
+    background: #1aeeff;
     border: none;
     color: #050e2d;
-    box-shadow: 0 0 10px #1aeeef;
+    box-shadow: 0 0 10px #1aeeff;
 }
 
 /* contact */
@@ -445,7 +445,7 @@ header .action .searchBx input{
     margin: 15px 0;
     outline: none;
     background: transparent;
-    border: 1px solid #1aeeef;
+    border: 1px solid #1aeeff;
     text-decoration: none;
     font-weight: 700;
     width: 150px;
@@ -454,10 +454,10 @@ header .action .searchBx input{
     letter-spacing: 1px;
 }
 .contact .form .inputBx input[type="submit"]:hover{
-    background: #1aeeef;
+    background: #1aeeff;
     border: none;
     color: #050e2d;
-    box-shadow: 0 0 10px #1aeeef;
+    box-shadow: 0 0 10px #1aeeff;
 }
 
 /* footer */
@@ -494,12 +494,12 @@ footer .info ul li{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #1aeeef;
+    border: 1px solid #1aeeff;
 }
 footer .info ul li:hover{
-    background: #1aeeef;
+    background: #1aeeff;
     border: none;
-    box-shadow: 0 0 10px #1aeeef;
+    box-shadow: 0 0 10px #1aeeff;
 }
 footer .info ul li a i{
     font-size: 1.5em;
