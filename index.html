@@ -54,8 +54,8 @@
             <h2>Popular Games</h2>
             <ul>
                 <li class="list active" data-filter="all">All</li>
-                <li class="list" data-filter="pc">Pc games</li>
                 <li class="list" data-filter="mobile">Mobile games</li>
+                <li class="list" data-filter="pc">Pc games</li>
             </ul>
             <div class="cardBx">
                 <div class="card" data-item="pc">
@@ -256,25 +256,29 @@
             <img src="./img/contact.jpg">
             <div class="form">
                 <h1>Contact Us</h1>
+                <!-- {% csrf_token %} -->
+                <form method="post" action="/save/">
                 <div class="inputBx">
                     <p>Enter Name</p>
-                    <input type="text" placeholder="Full Name">
+                    <input type="text" placeholder="Full Name" id="name" name="name" required>
                 </div>
                 <div class="inputBx">
                     <p>Enter Email</p>
-                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Email"  id="email" name="email" required>
                 </div>
                 <div class="inputBx">
                     <p>Enter Password</p>
-                    <input type="text" placeholder="Password....">
+                    <input type="text" placeholder="Password...."  id="password" name="password"   required>
                 </div>
                 <div class="inputBx">
                     <p>Message</p>
-                    <textarea placeholder="Type here..."></textarea>
+                    <textarea placeholder="Type here..." ></textarea>
                 </div>
                 <div class="inputBx">
-                    <input type="submit" name="Submit">
+                    <input type="submit" name="Submit" value="Submit">
+                   
                 </div>
+            </form>
             </div>
         </div>
 
