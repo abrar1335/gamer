@@ -577,11 +577,16 @@ footer .info ul li:hover a i{
     header ul li a {
         padding: 10px 15px;
     }
+    .toggleMenu{
+        position: relative;
+        left:auto;
+    }
     header .nav{
+        margin-left: 600px;
         position: fixed;
         top: 0;
         left: 0;
-        right: 0;
+        right: -40px;
         bottom: 0;
         background: #1b2141;
         display: none;
@@ -593,32 +598,6 @@ footer .info ul li:hover a i{
     
 }
 
-@media (max-width: 768px) {
-
-    .nav li {
-        margin: 10px 0;
-    }
-    .nav a {
-        padding: 10px 20px;
-    }
-    .searchBx input {
-        display: block;
-        width: 100px;
-    }
-    header .nav{
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: #1b2141;
-        display: none;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        z-index: 1000;
-    }
-}
 
 @media (max-width: 768px) {
     header{
@@ -642,11 +621,16 @@ footer .info ul li:hover a i{
     header .action .searchBx {
         width: 100%;
     }
+       .toggleMenu{
+        position: relative;
+        left:auto;
+    }
     header .nav{
+        margin-left: 350px;
         position: fixed;
         top: 0;
         left: 0;
-        right: 0;
+        right: -40px;
         bottom: 0;
         background: #1b2141;
         display: none;
